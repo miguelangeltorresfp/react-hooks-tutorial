@@ -20,7 +20,7 @@ export const useFetch = url => {
           if (isCurrent.current) {
             setState({ data: y, loading: false });
           }
-        }, 2000);
+        }, 10);
       });
   }, [url]);
 
